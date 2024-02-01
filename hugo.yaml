@@ -1,4 +1,23 @@
 baseURL: /
-languageCode: en-us
-title: My New Hugo Site
+copyright: Attribution-NonCommercial-ShareAlike 4.0 International
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    weight: 1
+  zh:
+    contentDir: content/zh
+    disabled: false
+    hasCJKLanguage: true
+    languageCode: zh-Hans-CN
+    languageDirection: ltr
+    languageName: Simplified Chinese
+    weight: 2
 theme: ["PaperMod"]
+timeZone: Asia/Shanghai
+title: Solar System
