@@ -2,7 +2,7 @@
 title = 'Climbing the Mountain to See the Snow Scenery'
 date = 2024-02-06T00:46:21+08:00
 cover:
-  image: images/2024/02/Screenshot_20240206_173913.png
+  image = images/2024/02/Screenshot_20240206_173913.png
 +++
 ![16:06](images/2024/02/PXL_20240205_160629388.MV.jpg)  
 ![16:08](images/2024/02/IMG_20240205_160818.jpg)  
