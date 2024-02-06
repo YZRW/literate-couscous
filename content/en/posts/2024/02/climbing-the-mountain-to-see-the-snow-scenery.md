@@ -1,5 +1,6 @@
 +++
 title = 'Climbing the Mountain to See the Snow Scenery'
+summary = 'A picture is worth a thousand words'
 date = 2024-02-06T00:46:57+08:00
 [cover]
 image = '/images/2024/02/PXL_20240205_155428676.MV.jpg'
