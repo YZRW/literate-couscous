@@ -5,6 +5,8 @@ date = 2024-02-06T00:46:57+08:00
 image = '/images/2024/02/PXL_20240205_155428676.MV.jpg'
 caption = 'snowman (Taken at 15:54 on February 5, 2024)'
 +++
+A picture is worth a thousand words  
+---
 Attached pictures:  
 ![Pictures taken](/images/2024/02/PXL_20240205_160629388.MV.jpg "Taken on 2024-02-05 16:06")
 ![Pictures taken](/images/2024/02/IMG_20240205_160818.jpg "Taken on 2024-02-05 16:08")
