@@ -3,6 +3,7 @@ title = 'Climbing the Mountain to See the Snow Scenery'
 date = 2024-02-06T00:46:21+08:00
 [cover]
 image = "/images/2024/02/Screenshot_20240206_173913.png"
+caption = "雪人（拍摄于 2024-02-05 15:54）“
 +++
 > 饮酒·其五  
 〔东晋〕陶渊明  
