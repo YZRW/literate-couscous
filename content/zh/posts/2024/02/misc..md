@@ -5,4 +5,5 @@ draft = true
 +++
 When you shine,be safe.  
 ~~解释~~  
+解释的功夫可以做很多事情  
 认真度过每分每秒，珍惜    《假如给我三天光明》
