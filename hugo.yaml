@@ -18,8 +18,50 @@ languages:
     languageDirection: ltr
     languageName: Simplified Chinese
     weight: 2
+module:
+  imports:
+  - path: github.com/hugomods/pwa
+outputs:
+  home:
+  - HTML
+  - RSS
+  - Offline
+  - WebAppManifest
 params:
   ShowCodeCopyButtons: true
+  pwa:
+    caches:
+      font:
+        max_age: 2592000
+        origins: []
+        strategy: cache-first
+      image:
+        max_age: 2592000
+        origins: []
+        strategy: cache-first
+      script:
+        max_age: 2592000
+        origins: []
+        strategy: cache-first
+      style:
+        max_age: 2592000
+        origins: []
+        strategy: cache-first
+    debug: false
+    icon_path: images/pwa/mug_coffee_PNG16824.png
+    icon_sizes:
+    - 48
+    - 64
+    - 128
+    - 144
+    - 256
+    - 512
+    manifest:
+      background_color: '#deb887'
+      theme_color: '#deb887'
+    offline_image: images/pwa/offline.png
+    precaches:
+    - url: /
 theme: ["PaperMod"]
 timeZone: Asia/Shanghai
 title: Solar System
