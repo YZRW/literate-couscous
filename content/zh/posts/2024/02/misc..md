@@ -6,6 +6,7 @@ draft = true
 ## 原始：
 When you shine,be safe.  
 解释的功夫可以做很多事情  
+
 ## 我的修改：
 ~~解释~~  
 解释的时间可以做很多事。
