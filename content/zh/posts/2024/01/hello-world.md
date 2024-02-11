@@ -13,4 +13,8 @@ date = 2024-01-31T22:19:24+08:00
 ```bash
 git submodule update --remote --merge
 ```  
-### 2.
+### 2. UPDATE github.com/hugomods/pwa  
+> https://gohugo.io/hugo-modules/use-modules/#update-one-module  
+```bash
+hugo mod get -u github.com/hugomods/pwa
+```
