@@ -4,3 +4,5 @@ favicon.ico - https://pngimg.com/image/16824 - License: Attribution-NonCommercia
             - https://realfavicongenerator.net/favicon_result?file_id=p1hmbrle0ud4q1n8f12g21dd0gsg7 - https://realfavicongenerator.net/terms_of_service
 Hugo PWA Module - https://github.com/hugomods/pwa - MIT license
     offline.png - https://github.com/hugomods/pwa/blob/main/exampleSite/assets/images/pwa/offline.png - MIT license
+nginx.html - https://raw.githubusercontent.com/nginx/nginx/master/docs/html/index.html - BSD-2-Clause License; https://nginx.org/LICENSE
+pwa.html - https://raw.githubusercontent.com/hugomods/pwa/main/exampleSite/layouts/partials/tests.html - MIT license
