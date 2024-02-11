@@ -2,5 +2,3 @@ Hugo - https://github.com/gohugoio/hugo - Apache-2.0 license
 Hugo PaperMod - https://github.com/adityatelange/hugo-PaperMod - MIT license
 favicon.ico - https://pngimg.com/image/16824 - License: Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
             - https://realfavicongenerator.net/favicon_result?file_id=p1hmbrle0ud4q1n8f12g21dd0gsg7 - https://realfavicongenerator.net/terms_of_service
-Hugo PWA Module - https://github.com/hugomods/pwa - MIT license
-    offline.png - https://github.com/hugomods/pwa/blob/main/exampleSite/assets/images/pwa/offline.png - MIT license
