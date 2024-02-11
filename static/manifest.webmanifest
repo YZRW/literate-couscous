@@ -15,6 +15,7 @@
     ],
     "theme_color": "#deb887",
     "background_color": "#deb887",
+    "start_url": "/",
     "display": "standalone",
     "shortcuts": [
         {
