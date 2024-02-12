@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "work.fcyz.blog.twa",
+        "sha256_cert_fingerprints": ["1E:3F:D9:03:27:8C:22:5F:0A:3D:BB:5B:91:14:DC:79:6F:2A:B1:51:05:CF:37:F3:C3:20:50:92:81:09:FD:0A"]
+      }
+    }]
