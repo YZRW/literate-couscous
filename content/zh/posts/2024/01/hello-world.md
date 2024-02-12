@@ -9,7 +9,9 @@ date = 2024-01-31T22:19:24+08:00
 <br />
 
 ### 1. Installing/Updating PaperMod  
-**UPDATE**: Inside the folder of your Hugo site `MyFreshWebsite`, run:  
+**UPDATE**:  
+1. Sync fork
+2. Inside the folder of your Hugo site `MyFreshWebsite`, run:  
 ```bash
 git submodule update --remote --merge
 ```  
