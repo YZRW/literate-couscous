@@ -1,21 +1,13 @@
 {
     "name": "Solar System",
     "short_name": "Solar System",
-    "icons": [
-        {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#deb887",
+    "id": "d9f2ebe6-3918-4b81-b2d1-ed56d238497e",
+    "description": "The Solar System is the gravitationally bound system of the Sun and the objects that orbit it. The largest of these objects are the eight planets, which in order from the Sun are four terrestrial planets (Mercury, Venus, Earth and Mars); two gas giants (Jupiter and Saturn); and two ice giants (Uranus and Neptune). The Solar System developed 4.6 billion years ago when a dense region of a molecular cloud collapsed, forming the Sun and a protoplanetary disc.",
     "background_color": "#deb887",
+    "theme_color": "#deb887",
     "start_url": "/",
+    "dir": "auto",
+    "lang": "en",
     "display": "standalone",
     "shortcuts": [
         {
@@ -41,6 +33,21 @@
                     "sizes": "512x512"
                 }
             ]
+        }
+    ],
+    "categories": [
+        "magazines"
+    ],
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
         }
     ]
 }
