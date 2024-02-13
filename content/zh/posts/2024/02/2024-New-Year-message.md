@@ -3,7 +3,7 @@ title = '恭贺新禧'
 date = 2024-02-12T19:19:52+08:00
 [cover]
 image = '/img/2024/02/new-year-2024-1703610004ZcB.jpg'
-caption = 'New Year 2024'
+caption = 'Petr Kratochvil has released this “New Year 2024” image under Public Domain license.'
 +++
 2024 新年快乐，龙年大吉！
 ---
