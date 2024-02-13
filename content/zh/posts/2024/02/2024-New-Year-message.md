@@ -7,4 +7,4 @@ caption = 'Petr Kratochvil has released this “New Year 2024” image under Pub
 +++
 2024 新年快乐，龙年大吉！
 ---
-![Human hand writing Welcome 2024 on whiteboard](/img/2024/02/human-hand-writing-welcome-2024-on-whiteboard.jpg "by Marco Verch")
+![Human hand writing Welcome 2024 on whiteboard](/img/2024/02/human-hand-writing-welcome-2024-on-whiteboard.jpg "Photo: Human hand writing Welcome 2024 on whiteboard by Marco Verch under Creative Commons 2.0")
