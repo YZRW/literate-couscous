@@ -41,6 +41,9 @@ languages:
       series: series
     menu:
       main:
+        - name: 每日诗词
+          url: daily-poetry
+          weight: 1
         - name: 存档
           url: archives
           weight: 5
@@ -65,7 +68,7 @@ outputs:
 params:
   ShowCodeCopyButtons: true
   editPost:
-    URL: "https://github.com/YZRW/literate-couscous/tree/Hugo/content"
+    URL: "https://github.com/YZRW/literate-couscous/tree/Hugo/content/{{ .Language.Lang }}"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
   pwa:
