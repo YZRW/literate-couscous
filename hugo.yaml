@@ -42,7 +42,7 @@ languages:
     menu:
       main:
         - name: 每日诗词
-          url: daily-poetry
+          url: posts/daily-poetry
           weight: 1
         - name: 存档
           url: archives
