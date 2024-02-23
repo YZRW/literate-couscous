@@ -6,7 +6,6 @@ date = 2024-02-06T00:46:57+08:00
 image = '/img/2024/02/PXL_20240205_155428676.MV.jpg'
 caption = 'snowman (Taken at 15:54 on February 5, 2024)'
 +++
-
 > A picture is worth a thousand words
 ---
 Attached pictures:  

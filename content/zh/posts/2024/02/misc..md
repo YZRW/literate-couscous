@@ -3,7 +3,6 @@ title = 'Misc.'
 date = 2024-02-07T02:58:52+08:00
 draft = true
 +++
-
 ## 原句子：  
 When you shine,be safe.  
 解释的功夫可以做很多事情  
