@@ -9,19 +9,19 @@ date = 2024-01-31T22:19:24+08:00
 
 <br />
 
-### 1. Installing/Updating PaperMod  
+### 1. Installing/Updating PaperMod
 **UPDATE**:  
 1. Sync fork
 2. Inside the folder of your Hugo site `MyFreshWebsite`, run:  
 ```bash
 git submodule update --remote --merge
 ```  
-### 2. UPDATE github.com/hugomods/pwa  
+### 2. UPDATE github.com/hugomods/pwa
 > https://gohugo.io/hugo-modules/use-modules/#update-one-module  
 ```bash
 hugo mod get -u github.com/hugomods/pwa
 ```  
-### 3. https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-pagemd  
+### 3. https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-pagemd
 > You can use it by creating archetypes/post.md
 ```bash
 hugo new --kind post <name>
