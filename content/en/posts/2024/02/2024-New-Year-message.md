@@ -3,6 +3,7 @@ title = "2024 New Year Message"
 date = 2024-02-12T19:20:05+08:00
 [cover]
 image = "/img/2024/02/new-year-2024-1703610004ZcB.jpg"
+alt = "New Year 2024"
 caption = "Petr Kratochvil has released this “New Year 2024” image under Public Domain license."
 +++
 
