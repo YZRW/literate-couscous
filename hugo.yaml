@@ -66,6 +66,7 @@ outputs:
   - Offline
   - WebAppManifest
 params:
+  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   # editPost:
   #   URL: "https://github.com/YZRW/literate-couscous/tree/Hugo/content/{{ .Language.Lang }}"
