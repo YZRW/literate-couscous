@@ -1,5 +1,5 @@
 ---
 title: "搜索"
-placeholder: 使用全文模糊搜索来搜索此站点... ...
+placeholder: 搜索文章... ...（支持全文模糊搜索）
 layout: "search"
 ---
