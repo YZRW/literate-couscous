@@ -50,7 +50,7 @@ languages:
         - name: 标签
           url: tags
           weight: 10
-        - name: 来源
+        - name: 源码
           url: https://github.com/YZRW/literate-couscous
 module:
   imports:

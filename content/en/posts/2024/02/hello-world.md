@@ -1,5 +1,5 @@
 +++
-title = 'Welcome to nginx!'
+title = "Welcome to nginx!"
 date = 2024-02-02T04:14:58+08:00
 +++
 
