@@ -7,3 +7,4 @@ Hugo PWA Module - https://github.com/hugomods/pwa - MIT license
 nginx.html - https://raw.githubusercontent.com/nginx/nginx/master/docs/html/index.html - BSD-2-Clause License; https://nginx.org/LICENSE
 new-year-2024-1703610004ZcB.jpg - https://www.publicdomainpictures.net/en/view-image.php?image=557375&picture=new-year-2024 - Petr Kratochvil - License: CC0 Public Domain
 human-hand-writing-welcome-2024-on-whiteboard.jpg - https://foto.wuestenigel.com/human-hand-writing-welcome-2024-on-whiteboard/ - by Marco Verch under Creative Commons 2.0
+新版标点符号用法（国家标准） - https://fzytxq.xjtu.edu.cn/info/1031/4488.htm
