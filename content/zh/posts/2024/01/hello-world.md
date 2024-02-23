@@ -21,8 +21,8 @@ git submodule update --remote --merge
 ```bash
 hugo mod get -u github.com/hugomods/pwa
 ```  
-### 3. "You can use it by creating archetypes/post.md"
-https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-pagemd
+### 3. https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-pagemd  
+> You can use it by creating archetypes/post.md
 ```bash
 hugo new --kind post <name>
 ```
