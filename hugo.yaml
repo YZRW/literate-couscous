@@ -20,10 +20,10 @@ languages:
           url: archives
           weight: 5
         - name: Search
-          url: search/
+          url: search
           weight: 10
         - name: Tags
-          url: tags/
+          url: tags
           weight: 10
         - name: Source
           url: https://github.com/YZRW/literate-couscous
@@ -45,10 +45,10 @@ languages:
           url: archives
           weight: 5
         - name: 搜索
-          url: search/
+          url: search
           weight: 10
         - name: 标签
-          url: tags/
+          url: tags
           weight: 10
         - name: 来源
           url: https://github.com/YZRW/literate-couscous
