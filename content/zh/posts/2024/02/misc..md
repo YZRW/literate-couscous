@@ -8,6 +8,8 @@ draft = true
 When you shine,be safe.  
 解释的功夫可以做很多事情  
 
+We don't appreciate what we have until it's gone. Freedom is like that.
+
 ## 我修改后的：  
 ~~解释~~  
 解释的时间可以做很多事。  
