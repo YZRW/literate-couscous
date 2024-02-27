@@ -17,13 +17,13 @@ languages:
     menu:
       main:
         - name: Archive
-          url: /archives
+          url: archives
           weight: 5
         # - name: Search
-        #   url: /search
+        #   url: search
         #   weight: 10
         # - name: Tags
-        #   url: /tags
+        #   url: tags
         #   weight: 10
         - name: Source
           url: https://github.com/YZRW/literate-couscous
@@ -42,16 +42,16 @@ languages:
     menu:
       main:
         - name: 每日诗词
-          url: /posts/daily-poetry
+          url: posts/daily-poetry
           weight: 1
         - name: 存档
-          url: /archives
+          url: archives
           weight: 5
         # - name: 搜索
-        #   url: /search
+        #   url: search
         #   weight: 10
         # - name: 标签
-        #   url: /tags
+        #   url: tags
         #   weight: 10
         - name: 源码
           url: https://github.com/YZRW/literate-couscous
