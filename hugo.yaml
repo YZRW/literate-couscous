@@ -17,14 +17,14 @@ languages:
     menu:
       main:
         - name: Archive
-          url: archives
+          url: /archives
           weight: 5
-        - name: Search
-          url: search
-          weight: 10
-        - name: Tags
-          url: tags
-          weight: 10
+        # - name: Search
+        #   url: /search
+        #   weight: 10
+        # - name: Tags
+        #   url: /tags
+        #   weight: 10
         - name: Source
           url: https://github.com/YZRW/literate-couscous
   zh:
@@ -42,17 +42,17 @@ languages:
     menu:
       main:
         - name: 每日诗词
-          url: posts/daily-poetry
+          url: /posts/daily-poetry
           weight: 1
         - name: 存档
-          url: archives
+          url: /archives
           weight: 5
-        - name: 搜索
-          url: search
-          weight: 10
-        - name: 标签
-          url: tags
-          weight: 10
+        # - name: 搜索
+        #   url: /search
+        #   weight: 10
+        # - name: 标签
+        #   url: /tags
+        #   weight: 10
         - name: 源码
           url: https://github.com/YZRW/literate-couscous
 module:
@@ -62,7 +62,7 @@ outputs:
   home:
   - HTML
   - RSS
-  - JSON
+  # - JSON
   - Offline
   - WebAppManifest
 params:
