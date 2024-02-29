@@ -1,5 +1,5 @@
 ---
-title: main
-summary: Contains posts related to `main`
-description: Contains posts related to main
+title: Root
+summary: Contains posts related to `Root`
+description: Contains posts related to Root
 ---
