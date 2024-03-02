@@ -1,0 +1,60 @@
+# This is a basic workflow to help you get started with Actions
+
+name: zaobao
+
+# Controls when the workflow will run
+on:
+  schedule:
+    - cron: '30 12 * * *'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # The workflow consists of two jobs, named Replace and Push.
+  Replace:
+    # Use jobs.<job_id>.name to set a name for the job, which is displayed in the GitHub UI.
+    name: Update the picture
+
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@main
+
+      # Get the "60s-for-news" picture
+      - name: Get the picture
+      # Sets variables for steps to use in the runner environment.
+        # env:
+          # ALAPI_TOKEN: ${{ secrets.ALAPI_TOKEN }}
+        run: |
+          mkdir -p ./static/img/zaobao
+          cd ./static/img/zaobao
+          wget https://v2.alapi.cn/api/zaobao?token=${{ secrets.ALAPI_TOKEN }}&format=image -O zaobao.png
+
+  Push:
+    # Use jobs.<job_id>.name to set a name for the job, which is displayed in the GitHub UI.
+    name: Push to the repository
+
+    # Waiting for files to be replaced
+    needs: Replace
+
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@main
+
+      # Push a commit using the built-in token
+      - name: Push a commit
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update the \"60s-for-news\" picture"
+          git push
