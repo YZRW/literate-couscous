@@ -34,6 +34,10 @@ jobs:
           mkdir -p ./static/img/zaobao
           cd ./static/img/zaobao
           wget https://v2.alapi.cn/api/zaobao?token=${{ secrets.ALAPI_TOKEN }}&format=image -O zaobao.png
+      
+      # Modify date
+      - name: Modify date
+        run: sed "3c date = $(TZ='Asia/Shanghai' date +"%Y-%m-%dT%H:%M:%S%:z")" content/zh/posts/zaobao.md
 
   Push:
     # Use jobs.<job_id>.name to set a name for the job, which is displayed in the GitHub UI.
