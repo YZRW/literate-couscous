@@ -28,11 +28,12 @@ jobs:
       # Get the "60s-for-news" picture
       - name: Get the picture
         # Sets variables for steps to use in the runner environment.
-        env:
-          ALAPI_TOKEN: ${{ secrets.ALAPI_TOKEN }}
+        # env:
+          # ALAPI_TOKEN: ${{ secrets.ALAPI_TOKEN }}
         run: |
           mkdir -p static/img/zaobao
-          wget https://v2.alapi.cn/api/zaobao?token=$ALAPI_TOKEN&format=image -O static/img/zaobao/zaobao.png
+          pic_link='https://v2.alapi.cn/api/zaobao?token=${{ secrets.ALAPI_TOKEN }}&format=image'
+          wget ${pic_link} -O static/img/zaobao/zaobao.png
       
       # Modify date
       - name: Modify date
