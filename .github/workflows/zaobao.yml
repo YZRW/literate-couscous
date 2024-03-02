@@ -15,7 +15,7 @@ jobs:
   # The workflow consists of two jobs, named Replace and Push.
   Replace:
     # Use jobs.<job_id>.name to set a name for the job, which is displayed in the GitHub UI.
-    name: Update the picture
+    name: Make changes
 
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -27,17 +27,16 @@ jobs:
 
       # Get the "60s-for-news" picture
       - name: Get the picture
-      # Sets variables for steps to use in the runner environment.
-        # env:
-          # ALAPI_TOKEN: ${{ secrets.ALAPI_TOKEN }}
+        # Sets variables for steps to use in the runner environment.
+        env:
+          ALAPI_TOKEN: ${{ secrets.ALAPI_TOKEN }}
         run: |
-          mkdir -p ./static/img/zaobao
-          cd ./static/img/zaobao
-          wget https://v2.alapi.cn/api/zaobao?token=${{ secrets.ALAPI_TOKEN }}&format=image -O zaobao.png
+          mkdir -p static/img/zaobao
+          wget https://v2.alapi.cn/api/zaobao?token=$ALAPI_TOKEN&format=image -O static/img/zaobao/zaobao.png
       
       # Modify date
       - name: Modify date
-        run: sed "3c date = $(TZ='Asia/Shanghai' date +"%Y-%m-%dT%H:%M:%S%:z")" content/zh/posts/zaobao.md
+        run: sed -i "3c date = $(TZ='Asia/Shanghai' date +"%Y-%m-%dT%H:%M:%S%:z")" content/zh/posts/zaobao.md
 
   Push:
     # Use jobs.<job_id>.name to set a name for the job, which is displayed in the GitHub UI.
