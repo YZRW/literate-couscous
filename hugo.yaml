@@ -41,7 +41,7 @@ languages:
       series: series
     menu:
       main:
-        - name: 每日诗词
+        - name: 诗词
           url: posts/daily-poetry
           weight: 1
         - name: 存档
