@@ -77,19 +77,19 @@ params:
       font:
         max_age: 2592000
         origins: []
-        strategy: cache-first
+        strategy: stale-while-revalidate
       image:
         max_age: 2592000
         origins: []
-        strategy: cache-first
+        strategy: stale-while-revalidate
       script:
         max_age: 2592000
         origins: []
-        strategy: cache-first
+        strategy: stale-while-revalidate
       style:
         max_age: 2592000
         origins: []
-        strategy: cache-first
+        strategy: stale-while-revalidate
     debug: false
     icon_path: images/pwa/mug_coffee_PNG16824.png
     icon_sizes:
